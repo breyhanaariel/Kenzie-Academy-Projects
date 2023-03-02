@@ -1,0 +1,14 @@
+/* Write your CSS Here. */
+
+button {
+  cursor: pointer;
+}
+
+#graph {
+  display: flex;
+  flex-direction: row;
+}
+
+.diceyresults {
+  padding: 10px;
+}

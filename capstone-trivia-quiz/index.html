@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <meta name="description" content="Kenzie" />
+    <meta name="author" content="Kenzie" />
+    <meta name="keywords" content="Kenzie" />
+
+    <!-- Title Page-->
+    <title>Kenzie JavaScript Page</title>
+
+    <!-- CSS-->
+    <link href="style.css" rel="stylesheet" media="all" />
+  </head>
+
+  <body>
+    <h1>Open the Developer Tools to see the console output.</h1>
+    <h3>
+      Either right click and select "Inspect" or use the shortcut Option + ⌘ + J
+      (on macOS), or Shift + CTRL + J (on Windows/Linux).
+    </h3>
+    <h1 class="title">Trivia Game</h1>
+    
+    <div class="rules-container">
+        <p class="rules">
+            So you think you’re the master of trivia, huh? You want that title? You gotta prove it. Get through all the questions and maaaaaaybe you can be the master of trivia. Here’s how it works: You gotta hit start, first off. But then there’ll be a question on the next page. Put your answer in the field. If you think you’re so smart and you got it, hit start. If you’re right, you get one point. If you’re wrong…well sucks for you ‘cause you’ll be back to square one! Think carefully. You don’t want to lose, do you?
+        </p>
+    
+        <p>
+            Now are you ready or what? You can totally do this. Hit the start button when you’re ready!
+        </p>
+    
+    <button id="start">Start</button>
+    </div>
+    
+    <div class="game-container" style="display: none">
+        <div class="category">
+            <h2 class="categoryTitle">Category:</h2>
+            <p class="chosenCategory"></p>
+        </div>
+        <div class="scoreboard">
+            <h2>Scoreboard</h2>
+        </div>
+            <h2>Question</h2>
+        <div class="question">    
+        </div>
+        <div class="answerInput">
+            <h3>Your Answer:</h3>
+            <input class="answer"></input>
+            <button id="submit">Submit Answer</button>
+        </div>
+        <div class="result">
+            <p class="resultMessage"></p>
+        </div>
+        </div>
+
+    <div class="game-over" style="display: none">
+        <p class="message"></p>
+        <button id="restart">Start Over</button>
+    </div>
+    <script src="code.js"></script>
+  </body>
+</html>
